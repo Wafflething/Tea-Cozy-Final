@@ -32,17 +32,17 @@ header img {
     justify-content: flex-end;
     text-decoration: underline;
     flex-wrap: wrap;
-    color: seashell;
-    opacity: 0.9;
     margin-right: 10px;
 }
 
 a {
     margin: 10px;
+    color: seashell;
+    opacity: 0.9;
 }
 
 .Mission-Container {
-    background-image: url(/images/img-mission-background.jpeg);
+    background-image: url(images/img-mission-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 69px auto;
@@ -87,7 +87,7 @@ img {
 }
 
 .Locations-Container {
-    background-image: url(/images/img-locations-background.jpeg);
+    background-image: url(images/img-locations-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
