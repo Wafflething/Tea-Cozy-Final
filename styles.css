@@ -34,6 +34,7 @@ header img {
     flex-wrap: wrap;
     color: seashell;
     opacity: 0.9;
+    margin-right: 10px;
 }
 
 a {
