@@ -32,6 +32,8 @@ header img {
     justify-content: flex-end;
     text-decoration: underline;
     flex-wrap: wrap;
+    color: seashell;
+    opacity: 0.9;
 }
 
 a {
