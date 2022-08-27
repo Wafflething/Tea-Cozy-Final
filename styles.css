@@ -1,0 +1,116 @@
+html {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+
+header img {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+
+.Nav-Links {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    flex-wrap: wrap;
+}
+
+a {
+    margin: 10px;
+}
+
+.Mission-Container {
+    background-image: url(Images/img-mission-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 69px auto;
+    width: auto;
+    min-height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 69px;
+    
+    
+}
+.Mission {
+    background-color: black;
+    width: 100%;
+}
+
+.Featured-Container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Teas-Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+img {
+    max-height: 200px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.Locations-Container {
+    background-image: url(Images/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Locations-Title {
+    width: 100%;
+}
+
+.Location {
+    opacity: 1;
+    min-width: 300px;
+    background-color: black;
+}
+
+.Info {
+    height: 200px;
+}
+
+.Copyright {
+    text-align: left;
+    margin-left: 20px;
+}
