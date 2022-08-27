@@ -41,7 +41,7 @@ a {
 }
 
 .Mission-Container {
-    background-image: url(Images/img-mission-background.jpeg);
+    background-image: url(/images/img-mission-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 69px auto;
@@ -86,7 +86,7 @@ img {
 }
 
 .Locations-Container {
-    background-image: url(Images/img-locations-background.jpeg);
+    background-image: url(/images/img-locations-background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
